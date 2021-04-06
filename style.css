@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+body {
+    background-color: rgb(225, 228, 231);
+}
+
+#click_here {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#welcome {
+    writing-mode: vertical-rl;
+    font-weight: 500;
+    font-size: 2em;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 35vh;
+    left: -26px;
+    text-orientation: upright;
+}
+
+#aboutme {
+    writing-mode: vertical-rl;
+    font-weight: 500;
+    font-size: 2em;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 195vh;
+    left: -26px;
+    text-orientation: upright;
+}
+
+#projects {
+    writing-mode: vertical-rl;
+    font-weight: 500;
+    font-size: 2em;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 450vh;
+    left: -26px;
+    text-orientation: upright;
+}
+
+#myskills {
+    writing-mode: vertical-rl;
+    font-weight: 500;
+    font-size: 2em;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 650vh;
+    left: -26px;
+    text-orientation: upright;
+}
+
+#infoBar {
+    border: solid 3px black;
+    width: 30px;
+    height: 1000vh;
+}
+
+#anchor1 {
+position: absolute;
+top: 0;
+visibility: hidden;
+}
+
+#anchor2{
+position: absolute;
+top: 10vh;
+visibility: hidden;
+}
+
+#anchor3 {
+    position: absolute;
+    top: 20vh;
+    visibility: hidden;
+}
+
+#anchor4 {
+    position: absolute;
+    top: 24vh;
+    visibility: hidden;
+}
+
+#section1 {
+    position: absolute;
+    top: 30vh;
+    left: 25vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+    height: 600px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#section1 h1{
+    font-size: 6.5em;
+    letter-spacing: 40px;
+    text-shadow: -1px 1px lightgray;
+}
+
+#section1 h1:hover {
+    text-shadow: -4px 1px darkgray;
+    transform: scale(1.01);
+}
+
+#header-titles {
+    letter-spacing: 5px;
+    position: relative;
+    top: -70px;
+}
+
+.titles {
+    position: relative;
+    float: left;
+    margin: 0px 0px 00px 60px;
+    text-shadow: -1px 0px lightgray;
+}
+
+#section2 {
+    position: absolute;
+    /* top: 0; */
+    top: 150vh;
+    left: 18vw;
+}
+
+#section2 h1 {
+    font-size: 10em;
+    letter-spacing: 50px;
+}
+
+.me {
+    position: absolute;
+    top: 25vh;
+    right: -600px;
+    font-size: 17em;
+}
+
+#about_me {
+    height: 300px;
+    width: 800px;
+    position: relative;
+    top: -100px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 0;
+}
+
+#section3 {
+    position: absolute;
+    /* top: 0; */
+    top: 400vh;
+    left: 18vw;
+}
+
+#section3 h1 {
+    font-size: 15em;
+    letter-spacing: 50px;
+}
+
+#section3 h2 {
+    position: relative;
+    top: -300px;
+    left: 600px;
+    font-size: 8em;
+}
+
+#project_list {
+    position: relative;
+    top: -560px;
+    left: 10px;
+}
+
+
+
+ul li {
+    font-weight: 00;
+    font-size: 2.5em;
+    letter-spacing: 5px;
+    list-style-type: square;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+ul li:hover {
+    text-decoration: underline;
+}
+
+#section4 {
+    position: absolute;
+    /* top: 0; */
+    top: 600vh;
+    left: 18vw;
+}
+
+#section4 h1{
+    font-size: 15em;
+    letter-spacing: 40px;
+    text-shadow: -1px 1px lightgray;
+}
+
+#section4 h2 {
+    position: relative;
+    top: -200px;
+    left: 430px;
+    font-size: 8em;
+    letter-spacing: 40px;
+}
+
+#skillBar {
+    position: absolute;
+    top: 600px;
+    left: 25px;
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 10px;
+    margin-top: -20px;
+    padding-top: -30px;
+}
+
+#skillBar progress {
+    position: relative;
+    width: 450px;
+    left: 509px;
+    top: -70px;
+}
+
+#section4 h5 {
+    font-size: 1.5em;
+}
